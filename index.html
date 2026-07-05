@@ -766,8 +766,7 @@
       <button data-target="countdown" onclick="goTo('countdown')" data-en="Countdown" data-kn="ಕ್ಷಣಗಣನೆ">
         Countdown
       </button>
-      <button data-target="house" onclick="goTo('house')" data-en="Our Home" data-kn="ನಮ್ಮ ಮನೆ">Our Home</button>
-      <button data-target="events" onclick="goTo('events')" data-en="Ceremony" data-kn="ಸಮಾರಂಭ">Ceremony</button>
+      <button data-target="house" onclick="goTo('house')" data-en="Ceremony" data-kn="ಸಮಾರಂಭ">Ceremony</button>
       <button data-target="venue" onclick="goTo('venue')" data-en="Venue" data-kn="ಸ್ಥಳ">Venue</button>
     </nav>
 
@@ -894,27 +893,16 @@
           </p>
         </div>
       </div>
-    </section>
 
-    <div class="divider">
-      <span></span
-      ><svg viewBox="0 0 24 24" fill="none" stroke="#C9A227" stroke-width="1.2">
-        <path
-          d="M12 2l2.5 5.5L20 10l-5.5 2.5L12 18l-2.5-5.5L4 10l5.5-2.5z"
-        /></svg
-      ><span></span>
-    </div>
+      <div class="divider">
+        <span></span
+        ><svg viewBox="0 0 24 24" fill="none" stroke="#C9A227" stroke-width="1.2">
+          <path
+            d="M12 2l2.5 5.5L20 10l-5.5 2.5L12 18l-2.5-5.5L4 10l5.5-2.5z"
+          /></svg
+        ><span></span>
+      </div>
 
-    <div class="divider">
-      <span></span
-      ><svg viewBox="0 0 24 24" fill="none" stroke="#C9A227" stroke-width="1.2">
-        <path
-          d="M12 2l2.5 5.5L20 10l-5.5 2.5L12 18l-2.5-5.5L4 10l5.5-2.5z"
-        /></svg
-      ><span></span>
-    </div>
-
-    <section id="events">
       <div class="label" data-en="Ceremony details" data-kn="ಸಮಾರಂಭದ ವಿವರಗಳು">Ceremony details</div>
       <h2 class="heading" data-en="Where to be, and when" data-kn="ಎಲ್ಲಿ ಮತ್ತು ಯಾವಾಗ">Where to be, and when</h2>
       <div class="timeline">
@@ -1014,7 +1002,7 @@
         });
       }
 
-      var sections = ["home", "invite", "countdown", "house", "journey", "events", "venue"];
+      var sections = ["home", "invite", "countdown", "house", "venue"];
       window.addEventListener("scroll", function () {
         var current = sections[0];
         for (var i = 0; i < sections.length; i++) {
