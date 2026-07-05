@@ -168,33 +168,10 @@
           transform: translateY(0);
         }
       }
-      .hero .navhint {
-        margin-top: 42px;
-        display: flex;
-        gap: 10px;
-        z-index: 2;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-      .hero .navhint button {
-        background: rgba(255, 255, 255, 0.06);
-        border: 1px solid rgba(201, 162, 39, 0.4);
-        color: #efd9b8;
-        padding: 9px 18px;
-        border-radius: 2px;
-        font-size: 12px;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        cursor: pointer;
-        transition: background 0.25s ease;
-      }
-      .hero .navhint button:hover {
-        background: rgba(255, 255, 255, 0.14);
-      }
 
       .lang-toggle {
         position: absolute;
-        top: clamp(64px, 9vh, 84px);
+        top: clamp(96px, 13vh, 120px);
         right: clamp(14px, 3vw, 28px);
         z-index: 6;
         display: flex;
@@ -225,7 +202,7 @@
       }
       @media (max-width: 480px) {
         .lang-toggle {
-          top: 60px;
+          top: 92px;
           right: 10px;
         }
         .lang-toggle button {
@@ -837,14 +814,6 @@
       <div class="eyebrow" data-en="With gratitude and joy" data-kn="ಕೃತಜ್ಞತೆ ಮತ್ತು ಸಂತೋಷದೊಂದಿಗೆ">With gratitude and joy</div>
       <h1><span data-en="Griha Pravesh" data-kn="ಗೃಹ ಪ್ರವೇಶ">Griha Pravesh</span><span class="family" data-en="Shantinivasa" data-kn="ಶಾಂತಿನಿವಾಸ">Shantinivasa</span></h1>
       <div class="sub" data-en="8 MARCH 2027 · MYSURU" data-kn="೮ ಮಾರ್ಚ್ ೨೦೨೭ · ಮೈಸೂರು">8 MARCH 2027 · MYSURU</div>
-      <div class="navhint">
-        <button onclick="goTo('invite')" data-en="Invite" data-kn="ಆಹ್ವಾನ">Invite</button>
-        <button onclick="goTo('countdown')" data-en="Countdown" data-kn="ಕ್ಷಣಗಣನೆ">Countdown</button>
-        <button onclick="goTo('house')" data-en="Our home" data-kn="ನಮ್ಮ ಮನೆ">Our home</button>
-        <button onclick="goTo('journey')" data-en="Our journey" data-kn="ನಮ್ಮ ಪಯಣ">Our journey</button>
-        <button onclick="goTo('events')" data-en="Ceremony" data-kn="ಸಮಾರಂಭ">Ceremony</button>
-        <button onclick="goTo('venue')" data-en="Venue" data-kn="ಸ್ಥಳ">Venue</button>
-      </div>
     </section>
 
     <div class="divider">
